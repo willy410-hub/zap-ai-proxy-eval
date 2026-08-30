@@ -26,15 +26,18 @@ zap-ai-proxy-eval/
 ├── requirements.txt     # Dependencies
 └── README.md
 
+```
+---
 
-##Quick Start
-1- Install Dependencies
+## Quick Start
+
+* **1- Install Dependencies**
 Bash
 pip install fastapi uvicorn pydantic
 
-2-Run the Gateway Server
+* **2-Run the Gateway Server**
 Bash
 python -m uvicorn app.main:app --reload
 
-3-Interactive Documentation
+* **3-Interactive Documentation**
 Open your browser and navigate to http://127.0.0.1:8000/docs to interact with the API endpoints via Swagger UI.
